@@ -1,12 +1,14 @@
 import styles from "./page.module.css";
-import NavBar from "./NavBar/NavBar.js";
+import NavigationBar from "./NavigationBar/NavigationBar.js";
 import Hero from "./Hero/Hero.js";
+import Footer from "./Footer/Footer";
 
 export default function Home() {
   return (
     <main className={styles.main}>
-      <NavBar />
+      <NavigationBar />
       <Hero />
+      <Footer />
     </main>
   );
 }
