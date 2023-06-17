@@ -1,0 +1,43 @@
+.mainWrapper {
+  background-color: #f9f9f9;
+  height: calc(100vh - 56px - 119px);
+}
+
+.rowWrapper {
+  height: calc(100vh - 56px - 119px);
+}
+
+.leftColumn {
+  margin: auto;
+
+  .name {
+    font-size: 65px;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: normal;
+  }
+
+  .header {
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-weight: 600;
+  }
+
+  .headerHr {
+    width: 75px;
+    margin: 10px 0px;
+  }
+
+  .description {
+    font-size: 14px;
+    padding-bottom: 10px;
+  }
+
+  .footer {
+    display: flex;
+  }
+}
+
+.rightColumn {
+  margin: auto;
+}

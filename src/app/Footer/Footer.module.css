@@ -1,0 +1,38 @@
+.mainWrapper {
+  background-color: #212529;
+  color: white;
+}
+
+.footerWrapper {
+  padding: 30px 0px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.leftColumn {
+  color: white;
+
+  .logo {
+    font-size: 24px;
+  }
+
+  .copyrightText {
+    font-size: 14px;
+  }
+}
+
+.rightColumn {
+  padding: 10px 0;
+
+  .socialMediaLinks {
+    font-size: 12px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .footerMenu {
+    font-size: 14px;
+    display: flex;
+    justify-content: space-around;
+  }
+}
