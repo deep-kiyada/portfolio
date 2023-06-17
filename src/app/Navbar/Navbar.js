@@ -4,11 +4,11 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
 
-function BrandExample() {
+function NavBar() {
   return (
     <>
       <Navbar bg="dark" expand={"sm"} variant="dark">
-        <Container>
+        <Container fluid>
           <Navbar.Brand href="#home">Deep Kiyada</Navbar.Brand>
           <Nav>
             <Nav.Link href="#home">Home</Nav.Link>
@@ -31,4 +31,4 @@ function BrandExample() {
   );
 }
 
-export default BrandExample;
+export default NavBar;
