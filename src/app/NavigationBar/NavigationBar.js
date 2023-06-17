@@ -4,7 +4,7 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
 
-function NavBar() {
+function NavigationBar() {
   return (
     <>
       <Navbar bg="dark" expand={"sm"} variant="dark">
@@ -31,4 +31,4 @@ function NavBar() {
   );
 }
 
-export default NavBar;
+export default NavigationBar;
