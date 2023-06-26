@@ -40,4 +40,8 @@
 
 .rightColumn {
   margin: auto;
+
+  .heroImage {
+    border-radius: 15px;
+  }
 }

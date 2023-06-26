@@ -1,5 +1,8 @@
 import Image from "next/image";
 import styles from "./hero.module.css";
+import "@fortawesome/fontawesome-svg-core/styles.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faLinkedin, faTwitter } from "@fortawesome/free-brands-svg-icons";
 
 function Hero() {
   return (
@@ -17,15 +20,22 @@ function Hero() {
             </div>
             <div className={styles.footer}>
               <div>
-                <a src="">Linkedin</a>
+                <FontAwesomeIcon icon={faLinkedin} size="xl" />
               </div>
               &nbsp; &nbsp;
-              <div>Twitter</div>
+              <div>
+                <FontAwesomeIcon icon={faTwitter} size="xl" />
+              </div>
             </div>
           </div>
           <div className={`${styles.rightColumn} col-4`}>
             <div className={styles.leftColumn}>
-              <Image src={"/images/Deep_Kiyada.JPG"} width={250} height={250} />
+              <Image
+                className={styles.heroImage}
+                src={"/images/Deep_Kiyada.JPG"}
+                width={250}
+                height={250}
+              />
             </div>
           </div>
         </div>
