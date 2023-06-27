@@ -3,6 +3,7 @@ import NavigationBar from "./NavigationBar/NavigationBar.js";
 import Hero from "./Hero/Hero.js";
 import Footer from "./Footer/Footer";
 import TechStack from "./TechStack/TechStack";
+import AboutMe from "./AboutMe/AboutMe";
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
       <NavigationBar />
       <Hero />
       <TechStack />
+      <AboutMe />
       <Footer />
     </main>
   );

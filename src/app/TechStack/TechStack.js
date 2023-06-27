@@ -28,7 +28,7 @@ const TechStack = () => {
             <li className={styles.logoItem}>
               <Image src={"/images/css-3.png"} width={35} height={35} />
             </li>
-            <li className={styles.logoItem}>
+            <li className={`${styles.logoItem} ${styles.tailwind}`}>
               <Image src={"/images/tailwind-css.png"} width={35} height={25} />
             </li>
             <li className={styles.logoItem}>
