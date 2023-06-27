@@ -1,0 +1,72 @@
+.mainWrapper {
+  background-color: #f9f9f9;
+  height: auto;
+  padding: 60px 0px;
+}
+
+.rowWrapper {
+  margin: 0px 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.leftColumn {
+  margin-right: 25px;
+}
+
+.aboutMeImage {
+  border-radius: 7px;
+}
+
+@keyframes rotate {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.logo {
+  display: block;
+  width: 100px;
+  max-width: 100%;
+  animation: rotate 8s linear infinite;
+
+  .xyz {
+    fill: #242424;
+  }
+}
+
+.rotatingLogo {
+  position: absolute;
+  bottom: -548px;
+  background: #d1d1d170;
+  border-radius: 50%;
+  left: 335px;
+}
+
+.workingEmoji {
+  right: 29px;
+  bottom: 33px;
+  position: absolute;
+}
+
+.rightColumn {
+  margin-left: 25px;
+
+  .AboutMeTag {
+    font-size: 16px;
+    font-weight: 600;
+    color: #147efb;
+  }
+
+  .AboutMeHeading {
+    padding: 5px 0px;
+    font-size: 25px;
+    font-weight: 600;
+    color: #505050;
+  }
+
+  .description {
+    font-size: 17px;
+    color: #767676;
+  }
+}

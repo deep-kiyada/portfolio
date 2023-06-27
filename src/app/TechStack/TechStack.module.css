@@ -25,4 +25,8 @@
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.09);
     border-radius: 50%;
   }
+
+  .tailwind {
+    padding-top: 18px;
+  }
 }
