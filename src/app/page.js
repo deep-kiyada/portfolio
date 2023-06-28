@@ -4,6 +4,7 @@ import Hero from "./Hero/Hero.js";
 import Footer from "./Footer/Footer.js";
 import TechStack from "./TechStack/TechStack.js";
 import AboutMe from "./AboutMe/AboutMe.js";
+import Project from "./Project/Project";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       <Hero />
       <TechStack />
       <AboutMe />
+      <Project />
       <Footer />
     </main>
   );
