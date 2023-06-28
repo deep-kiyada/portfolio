@@ -1,0 +1,87 @@
+.mainWrapper {
+  background-color: #f9f9f9;
+  height: auto;
+  padding: 60px 0px;
+}
+
+.header {
+  color: #147efb;
+  text-align: center;
+  padding-bottom: 20px;
+  font-size: 34px;
+  font-weight: 600;
+}
+
+.rowWrapper {
+  margin: 0px 70px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.leftColumn {
+  display: flex;
+  justify-content: center;
+}
+
+.projectBox {
+  border: 1px solid #7f7f7f;
+  border-radius: 15px;
+
+  .projectImageContainer {
+    width: 40vw;
+    height: 40vh;
+    position: relative;
+
+    .projectImage {
+      width: 100%;
+      height: 100%;
+      position: relative !important;
+      border-radius: 15px;
+      /* object-fit: cover; */
+    }
+  }
+}
+
+.projectDetails {
+  padding: 5px;
+
+  .projectHeader {
+    font-size: 22px;
+    font-weight: 600;
+  }
+
+  .projectTechStack {
+    font-size: 14px;
+  }
+
+  .projectDescription {
+    font-size: 16px;
+  }
+}
+
+.links {
+  padding: 6px 10px 0px 0px;
+  display: flex;
+  justify-content: space-between;
+  color: #147efb;
+}
+
+.projectVisitLink a {
+  text-decoration: none;
+}
+.projectVisitLink span {
+  padding-left: 5px;
+}
+.projectVisitLink:hover {
+  text-decoration: underline;
+}
+
+.projectReadMoreLink a {
+  text-decoration: none;
+}
+.projectReadMoreLink span {
+  padding-left: 5px;
+}
+.projectReadMoreLink:hover {
+  text-decoration: underline;
+}
