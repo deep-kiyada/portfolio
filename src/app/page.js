@@ -5,6 +5,7 @@ import Footer from "./Footer/Footer.js";
 import TechStack from "./TechStack/TechStack.js";
 import AboutMe from "./AboutMe/AboutMe.js";
 import Project from "./Project/Project";
+import { Analytics } from "@vercel/analytics/react";
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
       <AboutMe />
       <Project />
       <Footer />
+      <Analytics />
     </main>
   );
 }
