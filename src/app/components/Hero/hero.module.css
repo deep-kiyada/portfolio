@@ -1,0 +1,18 @@
+.main {
+  padding: 7rem 2rem 2rem 2rem;
+}
+
+.content {
+  margin: 0 auto;
+  max-width: 610px;
+}
+
+.title {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.description {
+  font-size: 14px;
+  font-weight: normal;
+}
